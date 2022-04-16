@@ -1,0 +1,18 @@
+[package]
+name = "lv-gui"
+version = "0.1.0"
+edition = "2021"
+description = "A system tool to manage disks, logical volumes, and filesystems, written in Rust."
+authors = [ "Michael John <michael.john@gmx.at>" ]
+readme = "README.md"
+keywords = ["gaming", "tool", "wine", "proton", "steam", "lutris"]
+#license = "GPL"
+license-file = "LICENSE.md"
+homepage = "https://github.com/amstelchen/lv-gui"
+repository = "https://github.com/amstelchen/lv-gui"
+documentation = "https://github.com/amstelchen/lv-gui"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gtk = { git = "https://github.com/gtk-rs/gtk3-rs.git" }
